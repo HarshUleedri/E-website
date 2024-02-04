@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html body{
+  height: 100%;
+  width: 100%;
+}
+.page1{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+.nav{
+  height: 80px;
+  width: 100%;
+  background-color: rgb(183, 183, 183);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.nav_left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  font-family: 'Protest Strike' ;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+  color: white;
+}
+.nav_right{
+  position: absolute;
+  right: 5%;
+}
+.nav_right button{
+  padding: 0.6vw 2vw;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2vw;
+  font-family: "Protest strike";
+  font-size: 1.2vw;
+}
+.page1_heading{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  background-color: white;
+
+}
+.page1_heading h1{
+  font-family: "Protest Strike";
+  font-size: 1.5vw;
+  background-color: white;
+  color: black;
+  letter-spacing: 0.1vw;
+}
+.page1_content{
+  height: calc(100vh - 130px);
+  width: 100%;
+  position: relative;
+}
+.page1_content video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.page1_content button{
+  position:absolute;
+  left:45%;
+  bottom: 50%;
+  padding: 1vw 3vw;
+  font-family: arial;
+  font-size: 1.2vw;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.page1_content button:hover{
+ background-color: rgba(255, 255, 255, 0.64);
+}
+.page2{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page2 .page2_left{
+  height: 90%;
+  width: 45%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.page2 .page2_left h1{
+  font-size: 5vw;
+  font-family: "Protest Strike";
+  letter-spacing: 0.3vw;
+}
+
+.page2_right{
+  height: 90%;
+  width: 55%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.swiper-slide img {
+  height: 80vw;
+  object-fit: cover;
+}
+/* .swiper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #cacaca;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  border-radius: 3vw;
+}
+
+.swiper-slide img {
+  height: 32vw;
+  filter: drop-shadow(2vw 2vw 3vw rgba(0, 0, 0, 0.477));
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 4vw;
+  border-radius: 0.5vw;
+  background-color: #ffffff;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 2vw;
+  color: rgb(161, 163, 161);
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+} */
+
+.page3{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+
+}
+.page3_heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw;
+
+}
+.page3_heading h1{
+  font-family: "Protest Strike";
+  color: white;
+  font-size: 6vw;
+
+}
+.page3_content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+}
+.page3_content_left{
+  height: 30vw;
+  width: 30vw;
+  object-fit: cover;
+  object-position:  start;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+
+}
+.page3_content_left h1{
+  position: absolute;
+  top: 3%;
+  left: 45%;
+  font-family: "Protest Strike";
+  color: white;
+}
+.page3_content_left img{
+  height: 50vw;
+}
+.page3_content_left button{
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
+  padding: 0.5vw 3vw;
+  font-size: 1vw; 
+  font-family: arial;
+  background-color: rgba(255, 255, 255, 0.468);
+  color: white;
+  border: 2px solid white;
+}
+.page3_content_left img:hover{
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.562);
+}
+.page3_content_right{
+  height: 30vw;
+  width: 30vw;
+  object-fit: cover;
+  object-position:  start;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+}
+.page3_content_right h1{
+  position: absolute;
+  top: 3%;
+  left: 40%;
+  font-family: "Protest Strike";
+  color: white;
+}
+.page3_content_right img{
+  height: 50vw;
+}
+.page3_content_right button{
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
+  padding: 0.5vw 3vw;
+  font-size: 1vw; 
+  font-family: arial;
+  background-color: rgba(255, 255, 255, 0.468);
+  color: white;
+  border: 2px solid white;
+}
+.footer{
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+  padding: 0vw 15vw;
+}
+.footer_heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw 0vw;
+}
+.footer_heading h1{
+  color: white;
+  font-family: "Protest Strike";
+  font-size: 6vw;
+}
+.footer_content{
+  display: flex;
+  flex-direction: column;
+  gap: 7vw;
+  padding-top: 5vw;
+
+}
+.footer_content1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.footer_content1 h1{
+  color: white;
+  font-family: "Protest Strike";
+  font-size: 2vw;
+}
+.footer_content2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw
+  
+}
+.footer_content2 h1{
+  color: white;
+  font-family: "Protest Strike";
+  font-size: 2vw;
+}
+.footer_content3 h1{
+
+  color: white;
+  font-family: "Protest Strike";
+  font-size: 1vw;
+}
+.footer_content3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+
+
